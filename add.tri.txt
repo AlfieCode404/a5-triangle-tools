@@ -1,0 +1,22 @@
+let 
+ var a : Integer;
+ var b : Integer
+in 
+begin
+ getint (var a);
+ getint (var b);
+ putint (a + b);
+ puteol();
+ putint (a * b);
+ if a = b then
+begin
+ put('s');
+ put('a');
+ put('m');
+ put('e');
+ put('!');
+ puteol()
+end
+else
+ skip
+end
